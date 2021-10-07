@@ -1,0 +1,570 @@
+@import "../media-queries/media-queries.scss";
+
+$justify-vals: (
+  "center": center,
+  "start": flex-start,
+  "end": flex-end,
+  "between": space-between,
+  "around": space-around,
+  "evenly": space-evenly,
+);
+
+$align-vals: (
+  "center": center,
+  "start": flex-start,
+  "end": flex-end,
+  "between": space-between,
+  "stretch": stretch,
+);
+
+$align-self-vals: (
+  "center": center,
+  "start": start,
+  "end": end,
+  "f-start": flex-start,
+  "f-end": flex-end,
+  "base": baseline,
+  "stretch": stretch,
+);
+
+$child-warp-vals: (
+  "0": 0,
+  "1": 1,
+  "2": 2,
+  "3": 3,
+  "4": 4,
+  "5": 5,
+);
+
+$child-basis-vals: (
+  "auto": auto,
+  "25": 25%,
+  "33": 33%,
+  "50": 50%,
+  "100": 100%,
+);
+
+@mixin flex-row {
+  display: flex !important;
+  flex-direction: row !important;
+}
+
+@mixin flex-column {
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+//premade column containers no query
+.between-column {
+  @include flex-column();
+  justify-content: space-between !important;
+  align-items: center !important;
+}
+
+.around-column {
+  @include flex-column();
+  justify-content: space-around !important;
+  align-items: center !important;
+}
+
+.evenly-column {
+  @include flex-column();
+  justify-content: space-evenly !important;
+  align-items: center !important;
+}
+
+.center-column {
+  @include flex-column();
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.top-column {
+  @include flex-column();
+  justify-content: flex-start !important;
+  align-items: center !important;
+}
+
+.bottom-column {
+  @include flex-column();
+  justify-content: flex-end !important;
+  align-items: center !important;
+}
+
+.left-column {
+  @include flex-column();
+  justify-content: center !important;
+  align-items: flex-start !important;
+}
+
+.right-column {
+  @include flex-column();
+  justify-content: center !important;
+  align-items: flex-end !important;
+}
+
+//premade row containers no query
+.between-row {
+  @include flex-row();
+  justify-content: space-between !important;
+  align-items: center !important;
+}
+
+.around-row {
+  @include flex-row();
+  justify-content: space-around !important;
+  align-items: center !important;
+}
+
+.evenly-row {
+  @include flex-row();
+  justify-content: space-evenly !important;
+  align-items: center !important;
+}
+
+.center-row {
+  @include flex-row();
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.top-row {
+  @include flex-row();
+  justify-content: center !important;
+  align-items: flex-start !important;
+}
+
+.bottom-row {
+  @include flex-row();
+  justify-content: center !important;
+  align-items: flex-end !important;
+}
+
+.left-row {
+  @include flex-row();
+  justify-content: flex-start !important;
+  align-items: center !important;
+}
+
+.right-row {
+  @include flex-row();
+  justify-content: flex-end !important;
+  align-items: center !important;
+}
+
+// flex containers no query
+.f-row {
+  @include flex-row();
+}
+
+.f-column {
+  @include flex-column();
+}
+
+// flex positioning no query
+@each $name, $val in $justify-vals {
+  .j-#{$name} {
+    justify-content: $val !important;
+  }
+}
+
+@each $name, $val in $align-vals {
+  .a-#{$name} {
+    align-items: $val !important;
+  }
+}
+
+// flex child align self no query
+@each $name, $val in $align-self-vals {
+  .self-a-#{$name} {
+    align-self: $val !important;
+  }
+}
+
+// flex child grow no query
+@each $name, $val in $child-warp-vals {
+  .grow-#{$name} {
+    flex-grow: $val !important;
+  }
+}
+
+// flex child shrink no query
+@each $name, $val in $child-warp-vals {
+  .shrink-#{$name} {
+    flex-shrink: $val !important;
+  }
+}
+
+// flex child basis no query
+@each $name, $val in $child-basis-vals {
+  .basis-#{$name} {
+    flex-basis: $val !important;
+  }
+}
+
+// flex wrap no query
+.wrap-on {
+  flex-wrap: wrap;
+}
+
+.wrap-off {
+  flex-wrap: nowrap;
+}
+
+//premade column containers md
+@include min-md {
+  .md\?between-column {
+    @include flex-column();
+    justify-content: space-between !important;
+    align-items: center !important;
+  }
+
+  .md\?around-column {
+    @include flex-column();
+    justify-content: space-around !important;
+    align-items: center !important;
+  }
+
+  .md\?evenly-column {
+    @include flex-column();
+    justify-content: space-evenly !important;
+    align-items: center;
+  }
+
+  .md\?center-column {
+    @include flex-column();
+    justify-content: center !important;
+    align-items: center !important;
+  }
+
+  .md\?top-column {
+    @include flex-column();
+    justify-content: flex-start !important;
+    align-items: center !important;
+  }
+
+  .md\?bottom-column {
+    @include flex-column();
+    justify-content: flex-end !important;
+    align-items: center !important;
+  }
+
+  .md\?left-column {
+    @include flex-column();
+    justify-content: center !important;
+    align-items: flex-start !important;
+  }
+
+  .md\?right-column {
+    @include flex-column();
+    justify-content: center !important;
+    align-items: flex-end !important;
+  }
+}
+
+//premade row containers md
+@include min-md {
+  .md\?between-row {
+    @include flex-row();
+    justify-content: space-between !important;
+    align-items: center !important;
+  }
+
+  .md\?around-row {
+    @include flex-row();
+    justify-content: space-around !important;
+    align-items: center !important;
+  }
+
+  .md\?evenly-row {
+    @include flex-row();
+    justify-content: space-evenly !important;
+    align-items: center !important;
+  }
+
+  .md\?center-row {
+    @include flex-row();
+    justify-content: center !important;
+    align-items: center !important;
+  }
+
+  .md\?top-row {
+    @include flex-row();
+    justify-content: center !important;
+    align-items: flex-start !important;
+  }
+
+  .md\?bottom-row {
+    @include flex-row();
+    justify-content: center !important;
+    align-items: flex-end !important;
+  }
+
+  .md\?left-row {
+    @include flex-row();
+    justify-content: flex-start !important;
+    align-items: center !important;
+  }
+
+  .md\?right-row {
+    @include flex-row();
+    justify-content: flex-end !important;
+    align-items: center !important;
+  }
+}
+
+// flex containers md
+@include min-md {
+  .md\?f-row {
+    @include flex-row();
+  }
+}
+
+@include min-md {
+  .md\?f-column {
+    @include flex-column();
+  }
+}
+
+// flex positioning md
+@each $name, $val in $justify-vals {
+  @include min-md {
+    .md\?j-#{$name} {
+      justify-content: $val !important;
+    }
+  }
+}
+
+@each $name, $val in $align-vals {
+  @include min-md {
+    .md\?a-#{$name} {
+      align-items: $val !important;
+    }
+  }
+}
+
+// flex child align self md
+@each $name, $val in $align-self-vals {
+  @include min-md {
+    .md\?self-a-#{$name} {
+      align-self: $val !important;
+    }
+  }
+}
+
+// flex child grow md
+@each $name, $val in $child-warp-vals {
+  @include min-md {
+    .md\?grow-#{$name} {
+      flex-grow: $val !important;
+    }
+  }
+}
+
+// flex child shrink md
+@each $name, $val in $child-warp-vals {
+  @include min-md {
+    .md\?shrink-#{$name} {
+      flex-shrink: $val !important;
+    }
+  }
+}
+
+// flex child basis md
+@each $name, $val in $child-basis-vals {
+  @include min-md {
+    .md\?basis-#{$name} {
+      flex-basis: $val !important;
+    }
+  }
+}
+
+// flex wrap md
+@include min-md {
+  .md\?wrap-on {
+    flex-wrap: wrap;
+  }
+
+  .md\?wrap-off {
+    flex-wrap: nowrap;
+  }
+}
+
+//premade column containers lg
+@include min-lg {
+  .lg\?between-column {
+    @include flex-column();
+    justify-content: space-between !important;
+    align-items: center !important;
+  }
+
+  .lg\?around-column {
+    @include flex-column();
+    justify-content: space-around !important;
+    align-items: center !important;
+  }
+
+  .lg\?evenly-column {
+    @include flex-column();
+    justify-content: space-evenly !important;
+    align-items: center !important;
+  }
+
+  .lg\?center-column {
+    @include flex-column();
+    justify-content: center !important;
+    align-items: center !important;
+  }
+
+  .lg\?top-column {
+    @include flex-column();
+    justify-content: flex-start !important;
+    align-items: center !important;
+  }
+
+  .lg\?bottom-column {
+    @include flex-column();
+    justify-content: flex-end !important;
+    align-items: center !important;
+  }
+
+  .lg\?left-column {
+    @include flex-column();
+    justify-content: center !important;
+    align-items: flex-start !important;
+  }
+
+  .lg\?right-column {
+    @include flex-column();
+    justify-content: center !important;
+    align-items: flex-end !important;
+  }
+}
+
+//premade row containers lg
+@include min-lg {
+  .lg\?between-row {
+    @include flex-row();
+    justify-content: space-between !important;
+    align-items: center !important;
+  }
+
+  .lg\?around-row {
+    @include flex-row();
+    justify-content: space-around !important;
+    align-items: center !important;
+  }
+
+  .lg\?evenly-row {
+    @include flex-row();
+    justify-content: space-evenly !important;
+    align-items: center !important;
+  }
+
+  .lg\?center-row {
+    @include flex-row();
+    justify-content: center !important;
+    align-items: center !important;
+  }
+
+  .lg\?top-row {
+    @include flex-row();
+    justify-content: center !important;
+    align-items: flex-start !important;
+  }
+
+  .lg\?bottom-row {
+    @include flex-row();
+    justify-content: center !important;
+    align-items: flex-end !important;
+  }
+
+  .lg\?left-row {
+    @include flex-row();
+    justify-content: flex-start !important;
+    align-items: center !important;
+  }
+
+  .lg\?right-row {
+    @include flex-row();
+    justify-content: flex-end !important;
+    align-items: center !important;
+  }
+}
+
+// flex containers lg
+@include min-lg {
+  .lg\?f-row {
+    @include flex-row();
+  }
+}
+
+@include min-lg {
+  .lg\?f-column {
+    @include flex-column();
+  }
+}
+
+// flex positioning lg
+@each $name, $val in $justify-vals {
+  @include min-lg {
+    .lg\?j-#{$name} {
+      justify-content: $val !important;
+    }
+  }
+}
+
+@each $name, $val in $align-vals {
+  @include min-lg {
+    .lg\?a-#{$name} {
+      align-items: $val !important;
+    }
+  }
+}
+
+// flex child align self lg
+@each $name, $val in $align-self-vals {
+  @include min-lg {
+    .lg\?self-a-#{$name} {
+      align-self: $val !important;
+    }
+  }
+}
+
+// flex child grow lg
+@each $name, $val in $child-warp-vals {
+  @include min-lg {
+    .lg\?grow-#{$name} {
+      flex-grow: $val !important;
+    }
+  }
+}
+
+// flex child shrink lg
+@each $name, $val in $child-warp-vals {
+  @include min-lg {
+    .lg\?shrink-#{$name} {
+      flex-shrink: $val !important;
+    }
+  }
+}
+
+// flex child basis lg
+@each $name, $val in $child-basis-vals {
+  @include min-lg {
+    .lg\?basis-#{$name} {
+      flex-basis: $val !important;
+    }
+  }
+}
+
+// flex wrap lg
+@include min-lg {
+  .lg\?wrap-on {
+    flex-wrap: wrap;
+  }
+
+  .lg\?wrap-off {
+    flex-wrap: nowrap;
+  }
+}

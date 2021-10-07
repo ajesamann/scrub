@@ -1,0 +1,125 @@
+// all imports
+@import "components/components.scss";
+@import "dividers/dividers.scss";
+@import "shapes/shapes.scss";
+@import "flex/flex.scss";
+@import "border/border.scss";
+@import "positioning/positioning.scss";
+@import "background/background.scss";
+@import "shadows/shadows.scss";
+@import "inputs/inputs.scss";
+@import "text/text.scss";
+@import "padding/padding.scss";
+@import "margin/margin.scss";
+@import "width/width.scss";
+@import "height/height.scss";
+@import "media-queries/media-queries.scss";
+
+$element-types: (
+  "block": block,
+  "inline": inline,
+);
+
+// global tag styles
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+// take up width and height of parent
+.max {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+// take up width and height of screen
+.max-screen {
+  width: 100vw !important;
+  height: 100vh !important;
+}
+
+// transition elements no query
+.smooth-on {
+  transition: 0.5s all ease-in-out !important;
+}
+
+.smooth-off {
+  transition: none !important;
+}
+
+// cursor no query
+.clickable {
+  cursor: pointer;
+}
+
+// box sizing no query
+.border-box {
+  box-sizing: border-box;
+}
+
+// element types no query
+@each $name, $type in $element-types {
+  .#{$name} {
+    display: $type !important;
+  }
+}
+
+// element types md
+@each $name, $type in $element-types {
+  @include min-md {
+    .md\?#{$name} {
+      display: $type !important;
+    }
+  }
+}
+
+// md query no loop
+@include min-md {
+  .md\?smooth-on {
+    transition: 0.5s all ease-in-out !important;
+  }
+
+  .md\?smooth-off {
+    transition: none !important;
+  }
+
+  .md\?clickable {
+    cursor: pointer;
+  }
+
+  .md\?border-box {
+    box-sizing: border-box;
+  }
+}
+
+// element types lg
+@each $name, $type in $element-types {
+  @include min-lg {
+    .lg\?#{$name} {
+      display: $type !important;
+    }
+  }
+}
+
+// lg query no loop
+@include min-lg {
+  .lg\?smooth-on {
+    transition: 0.5s all ease-in-out !important;
+  }
+
+  .lg\?smooth-off {
+    transition: none !important;
+  }
+
+  .lg\?clickable {
+    cursor: pointer;
+  }
+
+  .lg\?border-box {
+    box-sizing: border-box;
+  }
+}

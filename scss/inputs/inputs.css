@@ -1,0 +1,536 @@
+textarea,
+input {
+  border: none !important;
+  background-color: #f7f7f7;
+  padding: 12px 15px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 5px;
+}
+
+textarea::-webkit-input-placeholder,
+input::-webkit-input-placeholder {
+  color: #c1c1c1;
+}
+
+textarea:-ms-input-placeholder,
+input:-ms-input-placeholder {
+  color: #c1c1c1;
+}
+
+textarea::-ms-input-placeholder,
+input::-ms-input-placeholder {
+  color: #c1c1c1;
+}
+
+textarea::placeholder,
+input::placeholder {
+  color: #c1c1c1;
+}
+
+textarea:focus,
+input:focus {
+  outline: none;
+  background-color: #f0f0f0;
+}
+
+textarea {
+  resize: none;
+}
+
+.placeholder-primary::-webkit-input-placeholder {
+  color: #626ed4;
+}
+
+.placeholder-primary:-ms-input-placeholder {
+  color: #626ed4;
+}
+
+.placeholder-primary::-ms-input-placeholder {
+  color: #626ed4;
+}
+
+.placeholder-primary::placeholder {
+  color: #626ed4;
+}
+
+.placeholder-secondary::-webkit-input-placeholder {
+  color: #343549;
+}
+
+.placeholder-secondary:-ms-input-placeholder {
+  color: #343549;
+}
+
+.placeholder-secondary::-ms-input-placeholder {
+  color: #343549;
+}
+
+.placeholder-secondary::placeholder {
+  color: #343549;
+}
+
+.placeholder-success::-webkit-input-placeholder {
+  color: #68c955;
+}
+
+.placeholder-success:-ms-input-placeholder {
+  color: #68c955;
+}
+
+.placeholder-success::-ms-input-placeholder {
+  color: #68c955;
+}
+
+.placeholder-success::placeholder {
+  color: #68c955;
+}
+
+.placeholder-danger::-webkit-input-placeholder {
+  color: #ec4561;
+}
+
+.placeholder-danger:-ms-input-placeholder {
+  color: #ec4561;
+}
+
+.placeholder-danger::-ms-input-placeholder {
+  color: #ec4561;
+}
+
+.placeholder-danger::placeholder {
+  color: #ec4561;
+}
+
+.placeholder-warning::-webkit-input-placeholder {
+  color: #f8b425;
+}
+
+.placeholder-warning:-ms-input-placeholder {
+  color: #f8b425;
+}
+
+.placeholder-warning::-ms-input-placeholder {
+  color: #f8b425;
+}
+
+.placeholder-warning::placeholder {
+  color: #f8b425;
+}
+
+.placeholder-light-gray::-webkit-input-placeholder {
+  color: #fafafa;
+}
+
+.placeholder-light-gray:-ms-input-placeholder {
+  color: #fafafa;
+}
+
+.placeholder-light-gray::-ms-input-placeholder {
+  color: #fafafa;
+}
+
+.placeholder-light-gray::placeholder {
+  color: #fafafa;
+}
+
+.placeholder-white::-webkit-input-placeholder {
+  color: white;
+}
+
+.placeholder-white:-ms-input-placeholder {
+  color: white;
+}
+
+.placeholder-white::-ms-input-placeholder {
+  color: white;
+}
+
+.placeholder-white::placeholder {
+  color: white;
+}
+
+.placeholder-black::-webkit-input-placeholder {
+  color: black;
+}
+
+.placeholder-black:-ms-input-placeholder {
+  color: black;
+}
+
+.placeholder-black::-ms-input-placeholder {
+  color: black;
+}
+
+.placeholder-black::placeholder {
+  color: black;
+}
+
+.focus-outline-primary:focus {
+  outline: 1px solid #626ed4;
+}
+
+.focus-outline-secondary:focus {
+  outline: 1px solid #343549;
+}
+
+.focus-outline-success:focus {
+  outline: 1px solid #68c955;
+}
+
+.focus-outline-danger:focus {
+  outline: 1px solid #ec4561;
+}
+
+.focus-outline-warning:focus {
+  outline: 1px solid #f8b425;
+}
+
+.focus-outline-light-gray:focus {
+  outline: 1px solid #fafafa;
+}
+
+.focus-outline-white:focus {
+  outline: 1px solid white;
+}
+
+.focus-outline-black:focus {
+  outline: 1px solid black;
+}
+
+@media screen and (min-width: 600px) {
+  .md\?placeholder-primary::-webkit-input-placeholder {
+    color: #626ed4;
+  }
+  .md\?placeholder-primary:-ms-input-placeholder {
+    color: #626ed4;
+  }
+  .md\?placeholder-primary::-ms-input-placeholder {
+    color: #626ed4;
+  }
+  .md\?placeholder-primary::placeholder {
+    color: #626ed4;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .md\?placeholder-secondary::-webkit-input-placeholder {
+    color: #343549;
+  }
+  .md\?placeholder-secondary:-ms-input-placeholder {
+    color: #343549;
+  }
+  .md\?placeholder-secondary::-ms-input-placeholder {
+    color: #343549;
+  }
+  .md\?placeholder-secondary::placeholder {
+    color: #343549;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .md\?placeholder-success::-webkit-input-placeholder {
+    color: #68c955;
+  }
+  .md\?placeholder-success:-ms-input-placeholder {
+    color: #68c955;
+  }
+  .md\?placeholder-success::-ms-input-placeholder {
+    color: #68c955;
+  }
+  .md\?placeholder-success::placeholder {
+    color: #68c955;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .md\?placeholder-danger::-webkit-input-placeholder {
+    color: #ec4561;
+  }
+  .md\?placeholder-danger:-ms-input-placeholder {
+    color: #ec4561;
+  }
+  .md\?placeholder-danger::-ms-input-placeholder {
+    color: #ec4561;
+  }
+  .md\?placeholder-danger::placeholder {
+    color: #ec4561;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .md\?placeholder-warning::-webkit-input-placeholder {
+    color: #f8b425;
+  }
+  .md\?placeholder-warning:-ms-input-placeholder {
+    color: #f8b425;
+  }
+  .md\?placeholder-warning::-ms-input-placeholder {
+    color: #f8b425;
+  }
+  .md\?placeholder-warning::placeholder {
+    color: #f8b425;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .md\?placeholder-light-gray::-webkit-input-placeholder {
+    color: #fafafa;
+  }
+  .md\?placeholder-light-gray:-ms-input-placeholder {
+    color: #fafafa;
+  }
+  .md\?placeholder-light-gray::-ms-input-placeholder {
+    color: #fafafa;
+  }
+  .md\?placeholder-light-gray::placeholder {
+    color: #fafafa;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .md\?placeholder-white::-webkit-input-placeholder {
+    color: white;
+  }
+  .md\?placeholder-white:-ms-input-placeholder {
+    color: white;
+  }
+  .md\?placeholder-white::-ms-input-placeholder {
+    color: white;
+  }
+  .md\?placeholder-white::placeholder {
+    color: white;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .md\?placeholder-black::-webkit-input-placeholder {
+    color: black;
+  }
+  .md\?placeholder-black:-ms-input-placeholder {
+    color: black;
+  }
+  .md\?placeholder-black::-ms-input-placeholder {
+    color: black;
+  }
+  .md\?placeholder-black::placeholder {
+    color: black;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .md\?focus-bg-primary:focus {
+    outline: 1px solid #626ed4;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .md\?focus-bg-secondary:focus {
+    outline: 1px solid #343549;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .md\?focus-bg-success:focus {
+    outline: 1px solid #68c955;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .md\?focus-bg-danger:focus {
+    outline: 1px solid #ec4561;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .md\?focus-bg-warning:focus {
+    outline: 1px solid #f8b425;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .md\?focus-bg-light-gray:focus {
+    outline: 1px solid #fafafa;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .md\?focus-bg-white:focus {
+    outline: 1px solid white;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .md\?focus-bg-black:focus {
+    outline: 1px solid black;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .lg\?placeholder-primary::-webkit-input-placeholder {
+    color: #626ed4;
+  }
+  .lg\?placeholder-primary:-ms-input-placeholder {
+    color: #626ed4;
+  }
+  .lg\?placeholder-primary::-ms-input-placeholder {
+    color: #626ed4;
+  }
+  .lg\?placeholder-primary::placeholder {
+    color: #626ed4;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .lg\?placeholder-secondary::-webkit-input-placeholder {
+    color: #343549;
+  }
+  .lg\?placeholder-secondary:-ms-input-placeholder {
+    color: #343549;
+  }
+  .lg\?placeholder-secondary::-ms-input-placeholder {
+    color: #343549;
+  }
+  .lg\?placeholder-secondary::placeholder {
+    color: #343549;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .lg\?placeholder-success::-webkit-input-placeholder {
+    color: #68c955;
+  }
+  .lg\?placeholder-success:-ms-input-placeholder {
+    color: #68c955;
+  }
+  .lg\?placeholder-success::-ms-input-placeholder {
+    color: #68c955;
+  }
+  .lg\?placeholder-success::placeholder {
+    color: #68c955;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .lg\?placeholder-danger::-webkit-input-placeholder {
+    color: #ec4561;
+  }
+  .lg\?placeholder-danger:-ms-input-placeholder {
+    color: #ec4561;
+  }
+  .lg\?placeholder-danger::-ms-input-placeholder {
+    color: #ec4561;
+  }
+  .lg\?placeholder-danger::placeholder {
+    color: #ec4561;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .lg\?placeholder-warning::-webkit-input-placeholder {
+    color: #f8b425;
+  }
+  .lg\?placeholder-warning:-ms-input-placeholder {
+    color: #f8b425;
+  }
+  .lg\?placeholder-warning::-ms-input-placeholder {
+    color: #f8b425;
+  }
+  .lg\?placeholder-warning::placeholder {
+    color: #f8b425;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .lg\?placeholder-light-gray::-webkit-input-placeholder {
+    color: #fafafa;
+  }
+  .lg\?placeholder-light-gray:-ms-input-placeholder {
+    color: #fafafa;
+  }
+  .lg\?placeholder-light-gray::-ms-input-placeholder {
+    color: #fafafa;
+  }
+  .lg\?placeholder-light-gray::placeholder {
+    color: #fafafa;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .lg\?placeholder-white::-webkit-input-placeholder {
+    color: white;
+  }
+  .lg\?placeholder-white:-ms-input-placeholder {
+    color: white;
+  }
+  .lg\?placeholder-white::-ms-input-placeholder {
+    color: white;
+  }
+  .lg\?placeholder-white::placeholder {
+    color: white;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .lg\?placeholder-black::-webkit-input-placeholder {
+    color: black;
+  }
+  .lg\?placeholder-black:-ms-input-placeholder {
+    color: black;
+  }
+  .lg\?placeholder-black::-ms-input-placeholder {
+    color: black;
+  }
+  .lg\?placeholder-black::placeholder {
+    color: black;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .lg\?focus-bg-primary:focus {
+    outline: 1px solid #626ed4;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .lg\?focus-bg-secondary:focus {
+    outline: 1px solid #343549;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .lg\?focus-bg-success:focus {
+    outline: 1px solid #68c955;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .lg\?focus-bg-danger:focus {
+    outline: 1px solid #ec4561;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .lg\?focus-bg-warning:focus {
+    outline: 1px solid #f8b425;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .lg\?focus-bg-light-gray:focus {
+    outline: 1px solid #fafafa;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .lg\?focus-bg-white:focus {
+    outline: 1px solid white;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .lg\?focus-bg-black:focus {
+    outline: 1px solid black;
+  }
+}
+/*# sourceMappingURL=inputs.css.map */

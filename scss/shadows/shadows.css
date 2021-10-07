@@ -1,0 +1,45 @@
+.shadow-sm {
+  -webkit-box-shadow: 0px 0px 20px -5px rgba(0, 0, 0, 0.15) !important;
+  box-shadow: 0px 0px 20px -5px rgba(0, 0, 0, 0.15) !important;
+}
+
+.shadow-md {
+  -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15) !important;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15) !important;
+}
+
+.shadow-lg {
+  -webkit-box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.15) !important;
+  box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.15) !important;
+}
+
+@media screen and (min-width: 600px) {
+  .md\?shadow-sm {
+    -webkit-box-shadow: 0px 0px 20px -5px rgba(0, 0, 0, 0.15) !important;
+    box-shadow: 0px 0px 20px -5px rgba(0, 0, 0, 0.15) !important;
+  }
+  .md\?shadow-md {
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15) !important;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15) !important;
+  }
+  .md\?shadow-lg {
+    -webkit-box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.15) !important;
+    box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.15) !important;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .lg\?shadow-sm {
+    -webkit-box-shadow: 0px 0px 20px -5px rgba(0, 0, 0, 0.15) !important;
+    box-shadow: 0px 0px 20px -5px rgba(0, 0, 0, 0.15) !important;
+  }
+  .lg\?shadow-md {
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15) !important;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15) !important;
+  }
+  .lg\?shadow-lg {
+    -webkit-box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.15) !important;
+    box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.15) !important;
+  }
+}
+/*# sourceMappingURL=shadows.css.map */

@@ -1,0 +1,135 @@
+@import "../media-queries/media-queries.scss";
+
+$height-sizes-percents: (
+  "0": 0,
+  "quarter": 25%,
+  "half": 50%,
+  "three-quarters": 75%,
+  "full": 100%,
+  "screen": 100vh,
+);
+
+$height-sizes-pixels: (
+  "none": none,
+  "0": 0,
+  "25px": 25px,
+  "50px": 50px,
+  "75px": 75px,
+  "100px": 100px,
+  "125px": 125px,
+  "150px": 150px,
+  "175px": 175px,
+  "200px": 200px,
+  "225px": 225px,
+  "250px": 250px,
+  "275px": 275px,
+  "300px": 300px,
+  "325px": 325px,
+  "350px": 350px,
+  "375px": 375px,
+  "400px": 400px,
+  "425px": 425px,
+  "450px": 450px,
+  "475px": 475px,
+  "500px": 500px,
+);
+
+// height percents no query
+@each $name, $size in $height-sizes-percents {
+  .h-#{$name} {
+    height: $size !important;
+  }
+}
+
+// height pixels no query
+@each $name, $size in $height-sizes-pixels {
+  .h-#{$name} {
+    height: $size !important;
+  }
+}
+
+// max height pixels no query
+@each $name, $size in $height-sizes-pixels {
+  .max-h-#{$name} {
+    max-height: $size !important;
+  }
+}
+
+// min height pixels no query
+@each $name, $size in $height-sizes-pixels {
+  .min-h-#{$name} {
+    min-height: $size !important;
+  }
+}
+
+// height percents md
+@each $name, $size in $height-sizes-percents {
+  @include min-md {
+    .md\?h-#{$name} {
+      height: $size !important;
+    }
+  }
+}
+
+// height pixels md
+@each $name, $size in $height-sizes-pixels {
+  @include min-md {
+    .md\?h-#{$name} {
+      height: $size !important;
+    }
+  }
+}
+
+// max height pixels md
+@each $name, $size in $height-sizes-pixels {
+  @include min-md {
+    .md\?max-h-#{$name} {
+      max-height: $size !important;
+    }
+  }
+}
+
+// min height pixels md
+@each $name, $size in $height-sizes-pixels {
+  @include min-md {
+    .md\?min-h-#{$name} {
+      min-height: $size !important;
+    }
+  }
+}
+
+// height percents lg
+@each $name, $size in $height-sizes-percents {
+  @include min-lg {
+    .lg\?h-#{$name} {
+      height: $size !important;
+    }
+  }
+}
+
+// height pixels lg
+@each $name, $size in $height-sizes-pixels {
+  @include min-lg {
+    .lg\?h-#{$name} {
+      height: $size !important;
+    }
+  }
+}
+
+// max height pixels lg
+@each $name, $size in $height-sizes-pixels {
+  @include min-lg {
+    .lg\?max-h-#{$name} {
+      max-height: $size !important;
+    }
+  }
+}
+
+// min height pixels lg
+@each $name, $size in $height-sizes-pixels {
+  @include min-lg {
+    .lg\?min-h-#{$name} {
+      min-height: $size !important;
+    }
+  }
+}

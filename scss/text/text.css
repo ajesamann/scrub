@@ -1,0 +1,350 @@
+.italic {
+  font-style: italic !important;
+}
+
+.bold {
+  font-weight: bold !important;
+}
+
+.underline {
+  text-decoration: underline !important;
+}
+
+.decoration-off {
+  text-decoration: none !important;
+}
+
+.text-tiny {
+  font-size: 10px !important;
+}
+
+.text-xs {
+  font-size: 12px !important;
+}
+
+.text-sm {
+  font-size: 14px !important;
+}
+
+.text-md {
+  font-size: 16px !important;
+}
+
+.text-lg {
+  font-size: 18px !important;
+}
+
+.text-xl {
+  font-size: 20px !important;
+}
+
+.text-2xl {
+  font-size: 22px !important;
+}
+
+.text-3xl {
+  font-size: 24px !important;
+}
+
+.text-4xl {
+  font-size: 26px !important;
+}
+
+.text-5xl {
+  font-size: 28px !important;
+}
+
+.text-6xl {
+  font-size: 30px !important;
+}
+
+.text-primary {
+  color: #626ed4 !important;
+}
+
+.text-secondary {
+  color: #343549 !important;
+}
+
+.text-success {
+  color: #68c955 !important;
+}
+
+.text-danger {
+  color: #ec4561 !important;
+}
+
+.text-warning {
+  color: #f8b425 !important;
+}
+
+.text-light-gray {
+  color: #fafafa !important;
+}
+
+.text-white {
+  color: white !important;
+}
+
+.text-black {
+  color: black !important;
+}
+
+@media screen and (min-width: 600px) {
+  .md\?italic {
+    font-style: italic !important;
+  }
+  .md\?bold {
+    font-weight: bold !important;
+  }
+  .md\?underline {
+    text-decoration: underline !important;
+  }
+  .md\?decoration-off {
+    text-decoration: none !important;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .md\?text-tiny {
+    font-size: 10px !important;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .md\?text-xs {
+    font-size: 12px !important;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .md\?text-sm {
+    font-size: 14px !important;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .md\?text-md {
+    font-size: 16px !important;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .md\?text-lg {
+    font-size: 18px !important;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .md\?text-xl {
+    font-size: 20px !important;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .md\?text-2xl {
+    font-size: 22px !important;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .md\?text-3xl {
+    font-size: 24px !important;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .md\?text-4xl {
+    font-size: 26px !important;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .md\?text-5xl {
+    font-size: 28px !important;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .md\?text-6xl {
+    font-size: 30px !important;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .md\?text-primary {
+    color: #626ed4 !important;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .md\?text-secondary {
+    color: #343549 !important;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .md\?text-success {
+    color: #68c955 !important;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .md\?text-danger {
+    color: #ec4561 !important;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .md\?text-warning {
+    color: #f8b425 !important;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .md\?text-light-gray {
+    color: #fafafa !important;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .md\?text-white {
+    color: white !important;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .md\?text-black {
+    color: black !important;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .lg\?italic {
+    font-style: italic !important;
+  }
+  .lg\?bold {
+    font-weight: bold !important;
+  }
+  .lg\?underline {
+    text-decoration: underline !important;
+  }
+  .lg\?decoration-off {
+    text-decoration: none !important;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .lg\?text-tiny {
+    font-size: 10px !important;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .lg\?text-xs {
+    font-size: 12px !important;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .lg\?text-sm {
+    font-size: 14px !important;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .lg\?text-md {
+    font-size: 16px !important;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .lg\?text-lg {
+    font-size: 18px !important;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .lg\?text-xl {
+    font-size: 20px !important;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .lg\?text-2xl {
+    font-size: 22px !important;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .lg\?text-3xl {
+    font-size: 24px !important;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .lg\?text-4xl {
+    font-size: 26px !important;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .lg\?text-5xl {
+    font-size: 28px !important;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .lg\?text-6xl {
+    font-size: 30px !important;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .lg\?text-primary {
+    color: #626ed4 !important;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .lg\?text-secondary {
+    color: #343549 !important;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .lg\?text-success {
+    color: #68c955 !important;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .lg\?text-danger {
+    color: #ec4561 !important;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .lg\?text-warning {
+    color: #f8b425 !important;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .lg\?text-light-gray {
+    color: #fafafa !important;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .lg\?text-white {
+    color: white !important;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .lg\?text-black {
+    color: black !important;
+  }
+}
+/*# sourceMappingURL=text.css.map */

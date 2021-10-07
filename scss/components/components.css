@@ -1,0 +1,188 @@
+.chip-rectangle {
+  border-radius: 0px !important;
+  padding: 5px 10px !important;
+}
+
+.chip-round-sm {
+  border-radius: 3px !important;
+  padding: 5px 10px !important;
+}
+
+.chip-round-md {
+  border-radius: 7px !important;
+  padding: 5px 10px !important;
+}
+
+.chip-round-full {
+  border-radius: 1000px !important;
+  padding: 5px 10px !important;
+}
+
+.btn-rectangle {
+  background: none !important;
+  border: none !important;
+  border-radius: 0px !important;
+  cursor: pointer !important;
+  padding: 16px 23px !important;
+}
+
+.btn-round-sm {
+  background: none !important;
+  border: none !important;
+  border-radius: 7px !important;
+  cursor: pointer !important;
+  padding: 16px 23px !important;
+}
+
+.btn-round-md {
+  background: none !important;
+  border: none !important;
+  border-radius: 14px !important;
+  cursor: pointer !important;
+  padding: 16px 23px !important;
+}
+
+.btn-round-full {
+  background: none !important;
+  border: none !important;
+  border-radius: 1000px !important;
+  cursor: pointer !important;
+  padding: 16px 23px !important;
+}
+
+@media screen and (min-width: 600px) {
+  .md\?chip-rectangle {
+    border-radius: 0px !important;
+    padding: 5px 10px !important;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .md\?chip-round-sm {
+    border-radius: 3px !important;
+    padding: 5px 10px !important;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .md\?chip-round-md {
+    border-radius: 7px !important;
+    padding: 5px 10px !important;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .md\?chip-round-full {
+    border-radius: 1000px !important;
+    padding: 5px 10px !important;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .md\?btn-rectangle {
+    background: none !important;
+    border: none !important;
+    border-radius: 0px !important;
+    cursor: pointer !important;
+    padding: 16px 23px !important;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .md\?btn-round-sm {
+    background: none !important;
+    border: none !important;
+    border-radius: 7px !important;
+    cursor: pointer !important;
+    padding: 16px 23px !important;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .md\?btn-round-md {
+    background: none !important;
+    border: none !important;
+    border-radius: 14px !important;
+    cursor: pointer !important;
+    padding: 16px 23px !important;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .md\?btn-round-full {
+    background: none !important;
+    border: none !important;
+    border-radius: 1000px !important;
+    cursor: pointer !important;
+    padding: 16px 23px !important;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .lg\?chip-rectangle {
+    border-radius: 0px !important;
+    padding: 5px 10px !important;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .lg\?chip-round-sm {
+    border-radius: 3px !important;
+    padding: 5px 10px !important;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .lg\?chip-round-md {
+    border-radius: 7px !important;
+    padding: 5px 10px !important;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .lg\?chip-round-full {
+    border-radius: 1000px !important;
+    padding: 5px 10px !important;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .lg\?btn-rectangle {
+    background: none !important;
+    border: none !important;
+    border-radius: 0px !important;
+    cursor: pointer !important;
+    padding: 16px 23px !important;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .lg\?btn-round-sm {
+    background: none !important;
+    border: none !important;
+    border-radius: 7px !important;
+    cursor: pointer !important;
+    padding: 16px 23px !important;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .lg\?btn-round-md {
+    background: none !important;
+    border: none !important;
+    border-radius: 14px !important;
+    cursor: pointer !important;
+    padding: 16px 23px !important;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .lg\?btn-round-full {
+    background: none !important;
+    border: none !important;
+    border-radius: 1000px !important;
+    cursor: pointer !important;
+    padding: 16px 23px !important;
+  }
+}
+/*# sourceMappingURL=components.css.map */

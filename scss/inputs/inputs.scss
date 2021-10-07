@@ -1,0 +1,76 @@
+@import "../colors/colors.scss";
+@import "../media-queries/media-queries.scss";
+
+textarea,
+input {
+  border: none !important;
+  background-color: #f7f7f7;
+  padding: 12px 15px;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+textarea::placeholder,
+input::placeholder {
+  color: rgb(193, 193, 193);
+}
+
+textarea:focus,
+input:focus {
+  outline: none;
+  background-color: rgb(240, 240, 240);
+}
+
+textarea {
+  resize: none;
+}
+
+// placeholder colors no query
+@each $name, $color in $colors {
+  .placeholder-#{$name}::placeholder {
+    color: $color;
+  }
+}
+
+// focus bg colors no query
+@each $name, $color in $colors {
+  .focus-outline-#{$name}:focus {
+    outline: 1px solid $color;
+  }
+}
+
+// placeholder colors md
+@each $name, $color in $colors {
+  @include min-md {
+    .md\?placeholder-#{$name}::placeholder {
+      color: $color;
+    }
+  }
+}
+
+// focus bg colors md
+@each $name, $color in $colors {
+  @include min-md {
+    .md\?focus-bg-#{$name}:focus {
+      outline: 1px solid $color;
+    }
+  }
+}
+
+// placeholder colors lg
+@each $name, $color in $colors {
+  @include min-lg {
+    .lg\?placeholder-#{$name}::placeholder {
+      color: $color;
+    }
+  }
+}
+
+// focus bg colors lg
+@each $name, $color in $colors {
+  @include min-lg {
+    .lg\?focus-bg-#{$name}:focus {
+      outline: 1px solid $color;
+    }
+  }
+}

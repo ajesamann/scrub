@@ -1,0 +1,192 @@
+@import "../colors/colors.scss";
+@import "../media-queries/media-queries.scss";
+
+$border-radius-sizes: (
+  "sm": 10px,
+  "md": 25px,
+  "lg": 50px,
+);
+
+// border types no query
+@each $name, $color in $colors {
+  .border-tiny-#{$name} {
+    border: 1px !important;
+    border-style: solid !important;
+    border-color: $color !important;
+  }
+
+  .border-sm-#{$name} {
+    border: 2px !important;
+    border-style: solid !important;
+    border-color: $color !important;
+  }
+
+  .border-md-#{$name} {
+    border: 3px !important;
+    border-style: solid !important;
+    border-color: $color !important;
+  }
+
+  .border-lg-#{$name} {
+    border: 4px !important;
+    border-style: solid !important;
+    border-color: $color !important;
+  }
+}
+
+// border radius all no query
+@each $name, $radius in $border-radius-sizes {
+  .round-#{$name} {
+    border-radius: $radius !important;
+  }
+}
+
+// border radius top no query
+@each $name, $radius in $border-radius-sizes {
+  .round-top-left-#{$name} {
+    border-top-left-radius: $radius !important;
+  }
+
+  .round-top-right-#{$name} {
+    border-top-right-radius: $radius !important;
+  }
+}
+
+// border radius bottom no query
+@each $name, $radius in $border-radius-sizes {
+  .round-bottom-left-#{$name} {
+    border-bottom-left-radius: $radius !important;
+  }
+
+  .round-bottom-right-#{$name} {
+    border-bottom-right-radius: $radius !important;
+  }
+}
+
+// border types md
+@include min-md {
+  @each $name, $color in $colors {
+    .md\?border-tiny-#{$name} {
+      border: 1px !important;
+      border-style: solid !important;
+      border-color: $color !important;
+    }
+
+    .md\?border-sm-#{$name} {
+      border: 2px !important;
+      border-style: solid !important;
+      border-color: $color !important;
+    }
+
+    .md\?border-md-#{$name} {
+      border: 3px !important;
+      border-style: solid !important;
+      border-color: $color !important;
+    }
+
+    .md\?border-lg-#{$name} {
+      border: 4px !important;
+      border-style: solid !important;
+      border-color: $color !important;
+    }
+  }
+}
+
+// border radius all md
+@include min-md {
+  @each $name, $radius in $border-radius-sizes {
+    .md\?round-#{$name} {
+      border-radius: $radius !important;
+    }
+  }
+}
+
+// border radius top md
+@include min-md {
+  @each $name, $radius in $border-radius-sizes {
+    .md\?round-top-left-#{$name} {
+      border-top-left-radius: $radius !important;
+    }
+
+    .md\?round-top-right-#{$name} {
+      border-top-right-radius: $radius !important;
+    }
+  }
+}
+
+// border radius bottom md
+@include min-md {
+  @each $name, $radius in $border-radius-sizes {
+    .md\?round-bottom-left-#{$name} {
+      border-bottom-left-radius: $radius !important;
+    }
+
+    .md\?round-bottom-right-#{$name} {
+      border-bottom-right-radius: $radius !important;
+    }
+  }
+}
+
+// border types lg
+@include min-lg {
+  @each $name, $color in $colors {
+    .lg\?border-tiny-#{$name} {
+      border: 1px !important;
+      border-style: solid !important;
+      border-color: $color !important;
+    }
+
+    .lg\?border-sm-#{$name} {
+      border: 2px !important;
+      border-style: solid !important;
+      border-color: $color !important;
+    }
+
+    .lg\?border-md-#{$name} {
+      border: 3px !important;
+      border-style: solid !important;
+      border-color: $color !important;
+    }
+
+    .lg\?border-lg-#{$name} {
+      border: 4px !important;
+      border-style: solid !important;
+      border-color: $color !important;
+    }
+  }
+}
+
+// border radius all lg
+@include min-lg {
+  @each $name, $radius in $border-radius-sizes {
+    .lg\?round-#{$name} {
+      border-radius: $radius !important;
+    }
+  }
+}
+
+// border radius top lg
+@include min-lg {
+  @each $name, $radius in $border-radius-sizes {
+    .lg\?round-top-left-#{$name} {
+      border-top-left-radius: $radius !important;
+    }
+
+    .lg\?round-top-right-#{$name} {
+      border-top-right-radius: $radius !important;
+    }
+  }
+}
+
+// border radius bottom lg
+@include min-lg {
+  @each $name, $radius in $border-radius-sizes {
+    .lg\?round-bottom-left-#{$name} {
+      border-bottom-left-radius: $radius !important;
+    }
+
+    .lg\?round-bottom-right-#{$name} {
+      border-bottom-right-radius: $radius !important;
+    }
+  }
+}

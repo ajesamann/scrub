@@ -1,0 +1,128 @@
+.bg-primary {
+  background-color: #626ed4 !important;
+}
+
+.bg-secondary {
+  background-color: #343549 !important;
+}
+
+.bg-success {
+  background-color: #68c955 !important;
+}
+
+.bg-danger {
+  background-color: #ec4561 !important;
+}
+
+.bg-warning {
+  background-color: #f8b425 !important;
+}
+
+.bg-light-gray {
+  background-color: #fafafa !important;
+}
+
+.bg-white {
+  background-color: white !important;
+}
+
+.bg-black {
+  background-color: black !important;
+}
+
+@media screen and (min-width: 600px) {
+  .md\?bg-primary {
+    background-color: #626ed4 !important;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .md\?bg-secondary {
+    background-color: #343549 !important;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .md\?bg-success {
+    background-color: #68c955 !important;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .md\?bg-danger {
+    background-color: #ec4561 !important;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .md\?bg-warning {
+    background-color: #f8b425 !important;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .md\?bg-light-gray {
+    background-color: #fafafa !important;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .md\?bg-white {
+    background-color: white !important;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .md\?bg-black {
+    background-color: black !important;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .lg\?bg-primary {
+    background-color: #626ed4 !important;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .lg\?bg-secondary {
+    background-color: #343549 !important;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .lg\?bg-success {
+    background-color: #68c955 !important;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .lg\?bg-danger {
+    background-color: #ec4561 !important;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .lg\?bg-warning {
+    background-color: #f8b425 !important;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .lg\?bg-light-gray {
+    background-color: #fafafa !important;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .lg\?bg-white {
+    background-color: white !important;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .lg\?bg-black {
+    background-color: black !important;
+  }
+}
+/*# sourceMappingURL=background.css.map */

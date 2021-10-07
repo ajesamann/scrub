@@ -1,0 +1,83 @@
+@import "../media-queries/media-queries.scss";
+
+$shape-sizes-congruent: (
+  "25px": 25px,
+  "50px": 50px,
+  "75px": 75px,
+  "100px": 100px,
+  "125px": 125px,
+  "150px": 150px,
+  "175px": 175px,
+  "200px": 200px,
+  "225px": 225px,
+  "250px": 250px,
+  "275px": 275px,
+  "300px": 300px,
+  "325px": 325px,
+  "350px": 350px,
+  "375px": 375px,
+  "400px": 400px,
+  "425px": 425px,
+  "450px": 450px,
+  "475px": 475px,
+  "500px": 500px,
+);
+
+// circles no query
+@each $name, $val in $shape-sizes-congruent {
+  .circle-#{$name} {
+    width: $val !important;
+    height: $val !important;
+    border-radius: 1000px !important;
+  }
+}
+
+// squares no query
+@each $name, $val in $shape-sizes-congruent {
+  .square-#{$name} {
+    width: $val !important;
+    height: $val !important;
+  }
+}
+
+// circles md
+@each $name, $val in $shape-sizes-congruent {
+  @include min-md {
+    .md\?circle-#{$name} {
+      width: $val !important;
+      height: $val !important;
+      border-radius: 1000px !important;
+    }
+  }
+}
+
+// squares md
+@each $name, $val in $shape-sizes-congruent {
+  @include min-md {
+    .md\?square-#{$name} {
+      width: $val !important;
+      height: $val !important;
+    }
+  }
+}
+
+// circles lg
+@each $name, $val in $shape-sizes-congruent {
+  @include min-lg {
+    .lg\?circle-#{$name} {
+      width: $val !important;
+      height: $val !important;
+      border-radius: 1000px !important;
+    }
+  }
+}
+
+// squares lg
+@each $name, $val in $shape-sizes-congruent {
+  @include min-lg {
+    .lg\?square-#{$name} {
+      width: $val !important;
+      height: $val !important;
+    }
+  }
+}

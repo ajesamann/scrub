@@ -1,0 +1,305 @@
+@import "../media-queries/media-queries.scss";
+
+$horizontal-divider-widths: (
+  "5px": 5px,
+  "10px": 10px,
+  "15px": 15px,
+  "20px": 20px,
+  "25px": 25px,
+  "30px": 30px,
+  "35px": 35px,
+  "40px": 40px,
+  "45px": 45px,
+  "50px": 50px,
+  "quarter": 25%,
+  "half": 50%,
+  "three-quarters": 75%,
+  "full": 100%,
+  "screen": 100vw,
+);
+
+$vertical-divider-heights: (
+  "5px": 5px,
+  "10px": 10px,
+  "15px": 15px,
+  "20px": 20px,
+  "25px": 25px,
+  "30px": 30px,
+  "35px": 35px,
+  "40px": 40px,
+  "45px": 45px,
+  "50px": 50px,
+  "quarter": 25%,
+  "half": 50%,
+  "three-quarters": 75%,
+  "full": 100%,
+  "screen": 100vh,
+);
+
+// horizontal dividers no query
+@each $name, $val in $horizontal-divider-widths {
+  .h-divider-sm-#{$name} {
+    width: $val !important;
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+    height: 2px !important;
+  }
+
+  .h-divider-md-#{$name} {
+    width: $val !important;
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+    height: 4px !important;
+  }
+
+  .h-divider-lg-#{$name} {
+    width: $val !important;
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+    height: 6px !important;
+  }
+}
+
+.h-divider-sm-none {
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+  height: 2px !important;
+}
+
+.h-divider-md-none {
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+  height: 4px !important;
+}
+
+.h-divider-lg-none {
+  margin-top: 10px !important;
+  margin-bottom: 10px !important;
+  height: 6px !important;
+}
+
+// vertical dividers no query
+@each $name, $val in $vertical-divider-heights {
+  .v-divider-sm-#{$name} {
+    width: 2px !important;
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+    height: $val !important;
+  }
+
+  .v-divider-md-#{$name} {
+    width: 4px !important;
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+    height: $val !important;
+  }
+
+  .v-divider-lg-#{$name} {
+    width: 4px !important;
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+    height: $val !important;
+  }
+}
+
+.v-divider-sm-none {
+  width: 2px !important;
+  margin-left: 10px !important;
+  margin-right: 10px !important;
+}
+
+.v-divider-md-none {
+  width: 4px !important;
+  margin-left: 10px !important;
+  margin-right: 10px !important;
+}
+
+.v-divider-lg-none {
+  width: 4px !important;
+  margin-left: 10px !important;
+  margin-right: 10px !important;
+}
+
+// horizontal dividers md
+@each $name, $val in $horizontal-divider-widths {
+  @include min-md {
+    .md\?h-divider-sm-#{$name} {
+      width: $val !important;
+      margin-top: 10px !important;
+      margin-bottom: 10px !important;
+      height: 2px !important;
+    }
+
+    .md\?h-divider-md-#{$name} {
+      width: $val !important;
+      margin-top: 10px !important;
+      margin-bottom: 10px !important;
+      height: 4px !important;
+    }
+
+    .md\?h-divider-lg-#{$name} {
+      width: $val !important;
+      margin-top: 10px !important;
+      margin-bottom: 10px !important;
+      height: 6px !important;
+    }
+  }
+}
+
+@include min-md {
+  .md\?h-divider-sm-none {
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+    height: 2px !important;
+  }
+
+  .md\?h-divider-md-none {
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+    height: 4px !important;
+  }
+
+  .md\?h-divider-lg-none {
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+    height: 6px !important;
+  }
+}
+
+// vertical dividers md
+@each $name, $val in $vertical-divider-heights {
+  @include min-md {
+    .md\?v-divider-sm-#{$name} {
+      width: 2px !important;
+      margin-left: 10px !important;
+      margin-right: 10px !important;
+      height: $val !important;
+    }
+
+    .md\?v-divider-md-#{$name} {
+      width: 4px !important;
+      margin-left: 10px !important;
+      margin-right: 10px !important;
+      height: $val !important;
+    }
+
+    .md\?v-divider-lg-#{$name} {
+      width: 4px !important;
+      margin-left: 10px !important;
+      margin-right: 10px !important;
+      height: $val !important;
+    }
+  }
+}
+
+@include min-md {
+  .md\?v-divider-sm-none {
+    width: 2px !important;
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+  }
+
+  .md\?v-divider-md-none {
+    width: 4px !important;
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+  }
+
+  .md\?v-divider-lg-none {
+    width: 4px !important;
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+  }
+}
+
+// horizontal dividers lg
+@each $name, $val in $horizontal-divider-widths {
+  @include min-lg {
+    .lg\?h-divider-sm-#{$name} {
+      width: $val !important;
+      margin-top: 10px !important;
+      margin-bottom: 10px !important;
+      height: 2px !important;
+    }
+
+    .lg\?h-divider-lg-#{$name} {
+      width: $val !important;
+      margin-top: 10px !important;
+      margin-bottom: 10px !important;
+      height: 4px !important;
+    }
+
+    .lg\?h-divider-lg-#{$name} {
+      width: $val !important;
+      margin-top: 10px !important;
+      margin-bottom: 10px !important;
+      height: 6px !important;
+    }
+  }
+}
+
+@include min-lg {
+  .lg\?h-divider-sm-none {
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+    height: 2px !important;
+  }
+
+  .lg\?h-divider-lg-none {
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+    height: 4px !important;
+  }
+
+  .lg\?h-divider-lg-none {
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+    height: 6px !important;
+  }
+}
+
+// vertical dividers lg
+@each $name, $val in $vertical-divider-heights {
+  @include min-lg {
+    .lg\?v-divider-sm-#{$name} {
+      width: 2px !important;
+      margin-left: 10px !important;
+      margin-right: 10px !important;
+      height: $val !important;
+    }
+
+    .lg\?v-divider-lg-#{$name} {
+      width: 4px !important;
+      margin-left: 10px !important;
+      margin-right: 10px !important;
+      height: $val !important;
+    }
+
+    .lg\?v-divider-lg-#{$name} {
+      width: 4px !important;
+      margin-left: 10px !important;
+      margin-right: 10px !important;
+      height: $val !important;
+    }
+  }
+}
+
+@include min-lg {
+  .lg\?v-divider-sm-none {
+    width: 2px !important;
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+  }
+
+  .lg\?v-divider-lg-none {
+    width: 4px !important;
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+  }
+
+  .lg\?v-divider-lg-none {
+    width: 4px !important;
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+  }
+}

@@ -1,0 +1,80 @@
+@import "../media-queries/media-queries.scss";
+
+$btn-radius-size: (
+  "rectangle": 0px,
+  "round-sm": 7px,
+  "round-md": 14px,
+  "round-full": 1000px,
+);
+
+$chip-radius-size: (
+  "rectangle": 0px,
+  "round-sm": 3px,
+  "round-md": 7px,
+  "round-full": 1000px,
+);
+
+// chips no query
+@each $name, $val in $chip-radius-size {
+  .chip-#{$name} {
+    border-radius: $val !important;
+    padding: 5px 10px !important;
+  }
+}
+
+// btns no query
+@each $name, $val in $btn-radius-size {
+  .btn-#{$name} {
+    background: none !important;
+    border: none !important;
+    border-radius: $val !important;
+    cursor: pointer !important;
+    padding: 16px 23px !important;
+  }
+}
+
+// chips md
+@each $name, $val in $chip-radius-size {
+  @include min-md {
+    .md\?chip-#{$name} {
+      border-radius: $val !important;
+      padding: 5px 10px !important;
+    }
+  }
+}
+
+// btns md
+@each $name, $val in $btn-radius-size {
+  @include min-md {
+    .md\?btn-#{$name} {
+      background: none !important;
+      border: none !important;
+      border-radius: $val !important;
+      cursor: pointer !important;
+      padding: 16px 23px !important;
+    }
+  }
+}
+
+// chips lg
+@each $name, $val in $chip-radius-size {
+  @include min-lg {
+    .lg\?chip-#{$name} {
+      border-radius: $val !important;
+      padding: 5px 10px !important;
+    }
+  }
+}
+
+// btns lg
+@each $name, $val in $btn-radius-size {
+  @include min-lg {
+    .lg\?btn-#{$name} {
+      background: none !important;
+      border: none !important;
+      border-radius: $val !important;
+      cursor: pointer !important;
+      padding: 16px 23px !important;
+    }
+  }
+}

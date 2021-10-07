@@ -1,0 +1,151 @@
+@import "../media-queries/media-queries.scss";
+
+$width-sizes-percents: (
+  "0": 0,
+  "5": 5%,
+  "10": 10%,
+  "15": 15%,
+  "20": 20%,
+  "quarter": 25%,
+  "30": 30%,
+  "35": 35%,
+  "40": 40%,
+  "45": 45%,
+  "half": 50%,
+  "55": 55%,
+  "60": 60%,
+  "65": 65%,
+  "70": 70%,
+  "three-quarters": 75%,
+  "80": 80%,
+  "85": 85%,
+  "90": 90%,
+  "95": 95%,
+  "full": 100%,
+  "screen": 100vw,
+);
+
+$width-sizes-pixels: (
+  "none": none,
+  "0": 0,
+  "25px": 25px,
+  "50px": 50px,
+  "75px": 75px,
+  "100px": 100px,
+  "125px": 125px,
+  "150px": 150px,
+  "175px": 175px,
+  "200px": 200px,
+  "225px": 225px,
+  "250px": 250px,
+  "275px": 275px,
+  "300px": 300px,
+  "325px": 325px,
+  "350px": 350px,
+  "375px": 375px,
+  "400px": 400px,
+  "425px": 425px,
+  "450px": 450px,
+  "475px": 475px,
+  "500px": 500px,
+);
+
+// width percents no query
+@each $name, $size in $width-sizes-percents {
+  .w-#{$name} {
+    width: $size !important;
+  }
+}
+
+// width pixels no query
+@each $name, $size in $width-sizes-pixels {
+  .w-#{$name} {
+    width: $size !important;
+  }
+}
+
+// max width pixels no query
+@each $name, $size in $width-sizes-pixels {
+  .max-w-#{$name} {
+    max-width: $size !important;
+  }
+}
+
+// min width pixels no query
+@each $name, $size in $width-sizes-pixels {
+  .min-w-#{$name} {
+    min-width: $size;
+  }
+}
+
+// width percents md
+@each $name, $size in $width-sizes-percents {
+  @include min-md {
+    .md\?w-#{$name} {
+      width: $size !important;
+    }
+  }
+}
+
+// width pixels md
+@each $name, $size in $width-sizes-pixels {
+  @include min-md {
+    .md\?w-#{$name} {
+      width: $size !important;
+    }
+  }
+}
+
+// max width pixels md
+@each $name, $size in $width-sizes-pixels {
+  @include min-md {
+    .md\?max-w-#{$name} {
+      max-width: $size !important;
+    }
+  }
+}
+
+// min width pixels md
+@each $name, $size in $width-sizes-pixels {
+  @include min-md {
+    .md\?min-w-#{$name} {
+      min-width: $size;
+    }
+  }
+}
+
+// width percents lg
+@each $name, $size in $width-sizes-percents {
+  @include min-lg {
+    .lg\?w-#{$name} {
+      width: $size !important;
+    }
+  }
+}
+
+// width pixels lg
+@each $name, $size in $width-sizes-pixels {
+  @include min-lg {
+    .lg\?w-#{$name} {
+      width: $size !important;
+    }
+  }
+}
+
+// max width pixels lg
+@each $name, $size in $width-sizes-pixels {
+  @include min-lg {
+    .lg\?max-w-#{$name} {
+      max-width: $size !important;
+    }
+  }
+}
+
+// min width pixels lg
+@each $name, $size in $width-sizes-pixels {
+  @include min-lg {
+    .lg\?min-w-#{$name} {
+      min-width: $size;
+    }
+  }
+}

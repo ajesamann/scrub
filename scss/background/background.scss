@@ -1,0 +1,27 @@
+@import "../colors/colors.scss";
+@import "../media-queries/media-queries.scss";
+
+// background colors no query
+@each $name, $color in $colors {
+  .bg-#{$name} {
+    background-color: $color !important;
+  }
+}
+
+// background colors md
+@each $name, $color in $colors {
+  @include min-md {
+    .md\?bg-#{$name} {
+      background-color: $color !important;
+    }
+  }
+}
+
+// background colors lg
+@each $name, $color in $colors {
+  @include min-lg {
+    .lg\?bg-#{$name} {
+      background-color: $color !important;
+    }
+  }
+}

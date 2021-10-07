@@ -1,0 +1,820 @@
+.circle-25px {
+  width: 25px !important;
+  height: 25px !important;
+  border-radius: 1000px !important;
+}
+
+.circle-50px {
+  width: 50px !important;
+  height: 50px !important;
+  border-radius: 1000px !important;
+}
+
+.circle-75px {
+  width: 75px !important;
+  height: 75px !important;
+  border-radius: 1000px !important;
+}
+
+.circle-100px {
+  width: 100px !important;
+  height: 100px !important;
+  border-radius: 1000px !important;
+}
+
+.circle-125px {
+  width: 125px !important;
+  height: 125px !important;
+  border-radius: 1000px !important;
+}
+
+.circle-150px {
+  width: 150px !important;
+  height: 150px !important;
+  border-radius: 1000px !important;
+}
+
+.circle-175px {
+  width: 175px !important;
+  height: 175px !important;
+  border-radius: 1000px !important;
+}
+
+.circle-200px {
+  width: 200px !important;
+  height: 200px !important;
+  border-radius: 1000px !important;
+}
+
+.circle-225px {
+  width: 225px !important;
+  height: 225px !important;
+  border-radius: 1000px !important;
+}
+
+.circle-250px {
+  width: 250px !important;
+  height: 250px !important;
+  border-radius: 1000px !important;
+}
+
+.circle-275px {
+  width: 275px !important;
+  height: 275px !important;
+  border-radius: 1000px !important;
+}
+
+.circle-300px {
+  width: 300px !important;
+  height: 300px !important;
+  border-radius: 1000px !important;
+}
+
+.circle-325px {
+  width: 325px !important;
+  height: 325px !important;
+  border-radius: 1000px !important;
+}
+
+.circle-350px {
+  width: 350px !important;
+  height: 350px !important;
+  border-radius: 1000px !important;
+}
+
+.circle-375px {
+  width: 375px !important;
+  height: 375px !important;
+  border-radius: 1000px !important;
+}
+
+.circle-400px {
+  width: 400px !important;
+  height: 400px !important;
+  border-radius: 1000px !important;
+}
+
+.circle-425px {
+  width: 425px !important;
+  height: 425px !important;
+  border-radius: 1000px !important;
+}
+
+.circle-450px {
+  width: 450px !important;
+  height: 450px !important;
+  border-radius: 1000px !important;
+}
+
+.circle-475px {
+  width: 475px !important;
+  height: 475px !important;
+  border-radius: 1000px !important;
+}
+
+.circle-500px {
+  width: 500px !important;
+  height: 500px !important;
+  border-radius: 1000px !important;
+}
+
+.square-25px {
+  width: 25px !important;
+  height: 25px !important;
+}
+
+.square-50px {
+  width: 50px !important;
+  height: 50px !important;
+}
+
+.square-75px {
+  width: 75px !important;
+  height: 75px !important;
+}
+
+.square-100px {
+  width: 100px !important;
+  height: 100px !important;
+}
+
+.square-125px {
+  width: 125px !important;
+  height: 125px !important;
+}
+
+.square-150px {
+  width: 150px !important;
+  height: 150px !important;
+}
+
+.square-175px {
+  width: 175px !important;
+  height: 175px !important;
+}
+
+.square-200px {
+  width: 200px !important;
+  height: 200px !important;
+}
+
+.square-225px {
+  width: 225px !important;
+  height: 225px !important;
+}
+
+.square-250px {
+  width: 250px !important;
+  height: 250px !important;
+}
+
+.square-275px {
+  width: 275px !important;
+  height: 275px !important;
+}
+
+.square-300px {
+  width: 300px !important;
+  height: 300px !important;
+}
+
+.square-325px {
+  width: 325px !important;
+  height: 325px !important;
+}
+
+.square-350px {
+  width: 350px !important;
+  height: 350px !important;
+}
+
+.square-375px {
+  width: 375px !important;
+  height: 375px !important;
+}
+
+.square-400px {
+  width: 400px !important;
+  height: 400px !important;
+}
+
+.square-425px {
+  width: 425px !important;
+  height: 425px !important;
+}
+
+.square-450px {
+  width: 450px !important;
+  height: 450px !important;
+}
+
+.square-475px {
+  width: 475px !important;
+  height: 475px !important;
+}
+
+.square-500px {
+  width: 500px !important;
+  height: 500px !important;
+}
+
+@media screen and (min-width: 600px) {
+  .md\?circle-25px {
+    width: 25px !important;
+    height: 25px !important;
+    border-radius: 1000px !important;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .md\?circle-50px {
+    width: 50px !important;
+    height: 50px !important;
+    border-radius: 1000px !important;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .md\?circle-75px {
+    width: 75px !important;
+    height: 75px !important;
+    border-radius: 1000px !important;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .md\?circle-100px {
+    width: 100px !important;
+    height: 100px !important;
+    border-radius: 1000px !important;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .md\?circle-125px {
+    width: 125px !important;
+    height: 125px !important;
+    border-radius: 1000px !important;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .md\?circle-150px {
+    width: 150px !important;
+    height: 150px !important;
+    border-radius: 1000px !important;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .md\?circle-175px {
+    width: 175px !important;
+    height: 175px !important;
+    border-radius: 1000px !important;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .md\?circle-200px {
+    width: 200px !important;
+    height: 200px !important;
+    border-radius: 1000px !important;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .md\?circle-225px {
+    width: 225px !important;
+    height: 225px !important;
+    border-radius: 1000px !important;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .md\?circle-250px {
+    width: 250px !important;
+    height: 250px !important;
+    border-radius: 1000px !important;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .md\?circle-275px {
+    width: 275px !important;
+    height: 275px !important;
+    border-radius: 1000px !important;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .md\?circle-300px {
+    width: 300px !important;
+    height: 300px !important;
+    border-radius: 1000px !important;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .md\?circle-325px {
+    width: 325px !important;
+    height: 325px !important;
+    border-radius: 1000px !important;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .md\?circle-350px {
+    width: 350px !important;
+    height: 350px !important;
+    border-radius: 1000px !important;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .md\?circle-375px {
+    width: 375px !important;
+    height: 375px !important;
+    border-radius: 1000px !important;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .md\?circle-400px {
+    width: 400px !important;
+    height: 400px !important;
+    border-radius: 1000px !important;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .md\?circle-425px {
+    width: 425px !important;
+    height: 425px !important;
+    border-radius: 1000px !important;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .md\?circle-450px {
+    width: 450px !important;
+    height: 450px !important;
+    border-radius: 1000px !important;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .md\?circle-475px {
+    width: 475px !important;
+    height: 475px !important;
+    border-radius: 1000px !important;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .md\?circle-500px {
+    width: 500px !important;
+    height: 500px !important;
+    border-radius: 1000px !important;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .md\?square-25px {
+    width: 25px !important;
+    height: 25px !important;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .md\?square-50px {
+    width: 50px !important;
+    height: 50px !important;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .md\?square-75px {
+    width: 75px !important;
+    height: 75px !important;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .md\?square-100px {
+    width: 100px !important;
+    height: 100px !important;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .md\?square-125px {
+    width: 125px !important;
+    height: 125px !important;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .md\?square-150px {
+    width: 150px !important;
+    height: 150px !important;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .md\?square-175px {
+    width: 175px !important;
+    height: 175px !important;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .md\?square-200px {
+    width: 200px !important;
+    height: 200px !important;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .md\?square-225px {
+    width: 225px !important;
+    height: 225px !important;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .md\?square-250px {
+    width: 250px !important;
+    height: 250px !important;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .md\?square-275px {
+    width: 275px !important;
+    height: 275px !important;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .md\?square-300px {
+    width: 300px !important;
+    height: 300px !important;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .md\?square-325px {
+    width: 325px !important;
+    height: 325px !important;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .md\?square-350px {
+    width: 350px !important;
+    height: 350px !important;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .md\?square-375px {
+    width: 375px !important;
+    height: 375px !important;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .md\?square-400px {
+    width: 400px !important;
+    height: 400px !important;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .md\?square-425px {
+    width: 425px !important;
+    height: 425px !important;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .md\?square-450px {
+    width: 450px !important;
+    height: 450px !important;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .md\?square-475px {
+    width: 475px !important;
+    height: 475px !important;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .md\?square-500px {
+    width: 500px !important;
+    height: 500px !important;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .lg\?circle-25px {
+    width: 25px !important;
+    height: 25px !important;
+    border-radius: 1000px !important;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .lg\?circle-50px {
+    width: 50px !important;
+    height: 50px !important;
+    border-radius: 1000px !important;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .lg\?circle-75px {
+    width: 75px !important;
+    height: 75px !important;
+    border-radius: 1000px !important;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .lg\?circle-100px {
+    width: 100px !important;
+    height: 100px !important;
+    border-radius: 1000px !important;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .lg\?circle-125px {
+    width: 125px !important;
+    height: 125px !important;
+    border-radius: 1000px !important;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .lg\?circle-150px {
+    width: 150px !important;
+    height: 150px !important;
+    border-radius: 1000px !important;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .lg\?circle-175px {
+    width: 175px !important;
+    height: 175px !important;
+    border-radius: 1000px !important;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .lg\?circle-200px {
+    width: 200px !important;
+    height: 200px !important;
+    border-radius: 1000px !important;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .lg\?circle-225px {
+    width: 225px !important;
+    height: 225px !important;
+    border-radius: 1000px !important;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .lg\?circle-250px {
+    width: 250px !important;
+    height: 250px !important;
+    border-radius: 1000px !important;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .lg\?circle-275px {
+    width: 275px !important;
+    height: 275px !important;
+    border-radius: 1000px !important;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .lg\?circle-300px {
+    width: 300px !important;
+    height: 300px !important;
+    border-radius: 1000px !important;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .lg\?circle-325px {
+    width: 325px !important;
+    height: 325px !important;
+    border-radius: 1000px !important;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .lg\?circle-350px {
+    width: 350px !important;
+    height: 350px !important;
+    border-radius: 1000px !important;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .lg\?circle-375px {
+    width: 375px !important;
+    height: 375px !important;
+    border-radius: 1000px !important;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .lg\?circle-400px {
+    width: 400px !important;
+    height: 400px !important;
+    border-radius: 1000px !important;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .lg\?circle-425px {
+    width: 425px !important;
+    height: 425px !important;
+    border-radius: 1000px !important;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .lg\?circle-450px {
+    width: 450px !important;
+    height: 450px !important;
+    border-radius: 1000px !important;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .lg\?circle-475px {
+    width: 475px !important;
+    height: 475px !important;
+    border-radius: 1000px !important;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .lg\?circle-500px {
+    width: 500px !important;
+    height: 500px !important;
+    border-radius: 1000px !important;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .lg\?square-25px {
+    width: 25px !important;
+    height: 25px !important;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .lg\?square-50px {
+    width: 50px !important;
+    height: 50px !important;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .lg\?square-75px {
+    width: 75px !important;
+    height: 75px !important;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .lg\?square-100px {
+    width: 100px !important;
+    height: 100px !important;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .lg\?square-125px {
+    width: 125px !important;
+    height: 125px !important;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .lg\?square-150px {
+    width: 150px !important;
+    height: 150px !important;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .lg\?square-175px {
+    width: 175px !important;
+    height: 175px !important;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .lg\?square-200px {
+    width: 200px !important;
+    height: 200px !important;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .lg\?square-225px {
+    width: 225px !important;
+    height: 225px !important;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .lg\?square-250px {
+    width: 250px !important;
+    height: 250px !important;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .lg\?square-275px {
+    width: 275px !important;
+    height: 275px !important;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .lg\?square-300px {
+    width: 300px !important;
+    height: 300px !important;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .lg\?square-325px {
+    width: 325px !important;
+    height: 325px !important;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .lg\?square-350px {
+    width: 350px !important;
+    height: 350px !important;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .lg\?square-375px {
+    width: 375px !important;
+    height: 375px !important;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .lg\?square-400px {
+    width: 400px !important;
+    height: 400px !important;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .lg\?square-425px {
+    width: 425px !important;
+    height: 425px !important;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .lg\?square-450px {
+    width: 450px !important;
+    height: 450px !important;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .lg\?square-475px {
+    width: 475px !important;
+    height: 475px !important;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .lg\?square-500px {
+    width: 500px !important;
+    height: 500px !important;
+  }
+}
+/*# sourceMappingURL=shapes.css.map */

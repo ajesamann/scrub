@@ -1,0 +1,121 @@
+@import "../colors/colors.scss";
+@import "../media-queries/media-queries.scss";
+
+$font-sizes: (
+  "tiny": 10px,
+  "xs": 12px,
+  "sm": 14px,
+  "md": 16px,
+  "lg": 18px,
+  "xl": 20px,
+  "2xl": 22px,
+  "3xl": 24px,
+  "4xl": 26px,
+  "5xl": 28px,
+  "6xl": 30px,
+);
+
+// font styles no query
+.italic {
+  font-style: italic !important;
+}
+
+.bold {
+  font-weight: bold !important;
+}
+
+.underline {
+  text-decoration: underline !important;
+}
+
+.decoration-off {
+  text-decoration: none !important;
+}
+
+// font sizes no query
+@each $name, $size in $font-sizes {
+  .text-#{$name} {
+    font-size: $size !important;
+  }
+}
+
+// text colors no query
+@each $name, $color in $colors {
+  .text-#{$name} {
+    color: $color !important;
+  }
+}
+
+// font styles md
+@include min-md {
+  .md\?italic {
+    font-style: italic !important;
+  }
+
+  .md\?bold {
+    font-weight: bold !important;
+  }
+
+  .md\?underline {
+    text-decoration: underline !important;
+  }
+
+  .md\?decoration-off {
+    text-decoration: none !important;
+  }
+}
+
+// font sizes md
+@each $name, $size in $font-sizes {
+  @include min-md {
+    .md\?text-#{$name} {
+      font-size: $size !important;
+    }
+  }
+}
+
+// text colors md
+@each $name, $color in $colors {
+  @include min-md {
+    .md\?text-#{$name} {
+      color: $color !important;
+    }
+  }
+}
+
+// font styles lg
+@include min-lg {
+  .lg\?italic {
+    font-style: italic !important;
+  }
+
+  .lg\?bold {
+    font-weight: bold !important;
+  }
+
+  .lg\?underline {
+    text-decoration: underline !important;
+  }
+
+  .lg\?decoration-off {
+    text-decoration: none !important;
+  }
+}
+
+// font sizes lg
+@each $name, $size in $font-sizes {
+  @include min-lg {
+    .lg\?text-#{$name} {
+      font-size: $size !important;
+    }
+  }
+}
+
+// text colors lg
+@each $name, $color in $colors {
+  @include min-lg {
+    .lg\?text-#{$name} {
+      color: $color !important;
+    }
+  }
+}

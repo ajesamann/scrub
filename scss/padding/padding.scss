@@ -1,0 +1,227 @@
+@import "../media-queries/media-queries.scss";
+
+$padding-sizes: (
+  "0": 0,
+  "tiny": 2px,
+  "5px": 5px,
+  "10px": 10px,
+  "15px": 15px,
+  "20px": 20px,
+  "25px": 25px,
+  "30px": 30px,
+  "35px": 35px,
+  "40px": 40px,
+  "45px": 45px,
+  "50px": 50px,
+  "55px": 55px,
+  "60px": 60px,
+  "65px": 65px,
+  "70px": 70px,
+  "75px": 75px,
+  "80px": 80px,
+  "85px": 85px,
+  "90px": 90px,
+  "95px": 95px,
+  "100px": 100px,
+  "105px": 105px,
+  "110px": 110px,
+  "115px": 115px,
+  "120px": 120px,
+  "125px": 125px,
+  "130px": 130px,
+  "135px": 135px,
+  "140px": 140px,
+  "145px": 145px,
+  "150px": 150px,
+  "155px": 155px,
+  "160px": 160px,
+  "165px": 165px,
+  "170px": 170px,
+  "175px": 175px,
+  "180px": 180px,
+  "185px": 185px,
+  "190px": 190px,
+  "195px": 195px,
+  "200px": 200px,
+);
+
+// padding all no query
+@each $name, $size in $padding-sizes {
+  .pa-#{$name} {
+    padding: $size !important;
+  }
+}
+
+// padding y no query
+@each $name, $size in $padding-sizes {
+  .py-#{$name} {
+    padding-top: $size !important;
+    padding-bottom: $size !important;
+  }
+}
+
+// padding x no query
+@each $name, $size in $padding-sizes {
+  .px-#{$name} {
+    padding-left: $size !important;
+    padding-right: $size !important;
+  }
+}
+
+// padding right no query
+@each $name, $size in $padding-sizes {
+  .pr-#{$name} {
+    padding-right: $size !important;
+  }
+}
+
+// padding left no query
+@each $name, $size in $padding-sizes {
+  .pl-#{$name} {
+    padding-left: $size !important;
+  }
+}
+
+// padding top no query
+@each $name, $size in $padding-sizes {
+  .pt-#{$name} {
+    padding-top: $size !important;
+  }
+}
+
+// padding bottom no query
+@each $name, $size in $padding-sizes {
+  .pb-#{$name} {
+    padding-bottom: $size !important;
+  }
+}
+
+// padding all md
+@each $name, $size in $padding-sizes {
+  @include min-md {
+    .md\?pa-#{$name} {
+      padding: $size !important;
+    }
+  }
+}
+
+// padding y md
+@each $name, $size in $padding-sizes {
+  @include min-md {
+    .md\?py-#{$name} {
+      padding-top: $size !important;
+      padding-bottom: $size !important;
+    }
+  }
+}
+
+// padding x md
+@each $name, $size in $padding-sizes {
+  @include min-md {
+    .md\?px-#{$name} {
+      padding-left: $size !important;
+      padding-right: $size !important;
+    }
+  }
+}
+
+// padding right md
+@each $name, $size in $padding-sizes {
+  @include min-md {
+    .md\?pr-#{$name} {
+      padding-right: $size !important;
+    }
+  }
+}
+
+// padding left md
+@each $name, $size in $padding-sizes {
+  @include min-md {
+    .md\?pl-#{$name} {
+      padding-left: $size !important;
+    }
+  }
+}
+
+// padding top md
+@each $name, $size in $padding-sizes {
+  @include min-md {
+    .md\?pt-#{$name} {
+      padding-top: $size !important;
+    }
+  }
+}
+
+// padding bottom md
+@each $name, $size in $padding-sizes {
+  @include min-md {
+    .md\?pb-#{$name} {
+      padding-bottom: $size !important;
+    }
+  }
+}
+
+// padding all lg
+@each $name, $size in $padding-sizes {
+  @include min-lg {
+    .lg\?pa-#{$name} {
+      padding: $size !important;
+    }
+  }
+}
+
+// padding y lg
+@each $name, $size in $padding-sizes {
+  @include min-lg {
+    .lg\?py-#{$name} {
+      padding-top: $size !important;
+      padding-bottom: $size !important;
+    }
+  }
+}
+
+// padding x lg
+@each $name, $size in $padding-sizes {
+  @include min-lg {
+    .lg\?px-#{$name} {
+      padding-left: $size !important;
+      padding-right: $size !important;
+    }
+  }
+}
+
+// padding right lg
+@each $name, $size in $padding-sizes {
+  @include min-lg {
+    .lg\?pr-#{$name} {
+      padding-right: $size !important;
+    }
+  }
+}
+
+// padding left lg
+@each $name, $size in $padding-sizes {
+  @include min-lg {
+    .lg\?pl-#{$name} {
+      padding-left: $size !important;
+    }
+  }
+}
+
+// padding top lg
+@each $name, $size in $padding-sizes {
+  @include min-lg {
+    .lg\?pt-#{$name} {
+      padding-top: $size !important;
+    }
+  }
+}
+
+// padding bottom lg
+@each $name, $size in $padding-sizes {
+  @include min-lg {
+    .lg\?pb-#{$name} {
+      padding-bottom: $size !important;
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "scrubcss",
+  "version": "1.0.4",
+  "description": "A CSS framework to help take out some of the overhead with styling large projects.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajesamann/scrub.git"
+  },
+  "keywords": [
+    "css"
+  ],
+  "author": "AJ Esamann",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ajesamann/scrub/issues"
+  },
+  "homepage": "https://github.com/ajesamann/scrub#readme"
+}
