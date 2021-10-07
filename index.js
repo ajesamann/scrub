@@ -1,1 +1,1 @@
-console.info("Building ScrubCSS");
+console.info("You're a Scrub.");

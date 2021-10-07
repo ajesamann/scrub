@@ -1,6 +1,6 @@
 {
   "name": "scrubcss",
-  "version": "1.0.4",
+  "version": "1.0.6",
   "description": "A CSS framework to help take out some of the overhead with styling large projects.",
   "main": "index.js",
   "scripts": {
@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/ajesamann/scrub/issues"
   },
-  "homepage": "https://github.com/ajesamann/scrub#readme"
+  "homepage": "https://github.com/ajesamann/scrub#readme",
+  "dependencies": {
+    "css-minify": "^2.0.0"
+  }
 }
