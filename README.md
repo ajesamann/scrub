@@ -7,14 +7,14 @@ The quickest way to get started with Scrub is by using the CDN to include the fo
 ```html
 <!-- Scrub CSS -->
 <link
-  href="https://cdn.jsdelivr.net/npm/scrubcss@1.0.8/css-dist/main.min.css"
+  href="https://cdn.jsdelivr.net/npm/scrubcss@1.0.9/css-dist/main.min.css"
   rel="stylesheet"
 />
 
 <!--
   Or,
   Use the following (no variables, supports IE11):
-  <link href="https://cdn.jsdelivr.net/npm/scrubcss@1.0.8/css-dist/main.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/scrubcss@1.0.9/css-dist/main.min.css" rel="stylesheet" />
 -->
 ```
 
