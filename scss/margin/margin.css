@@ -1,3 +1,7 @@
+.ma-auto {
+  margin: auto !important;
+}
+
 .ma-0 {
   margin: 0 !important;
 }
@@ -164,6 +168,11 @@
 
 .ma-200px {
   margin: 200px !important;
+}
+
+.my-auto {
+  margin-top: auto !important;
+  margin-bottom: auto !important;
 }
 
 .my-0 {
@@ -376,6 +385,11 @@
   margin-bottom: 200px !important;
 }
 
+.mx-auto {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
 .mx-0 {
   margin-left: 0 !important;
   margin-right: 0 !important;
@@ -586,6 +600,10 @@
   margin-right: 200px !important;
 }
 
+.mr-auto {
+  margin-right: auto !important;
+}
+
 .mr-0 {
   margin-right: 0 !important;
 }
@@ -752,6 +770,10 @@
 
 .mr-200px {
   margin-right: 200px !important;
+}
+
+.ml-auto {
+  margin-left: auto !important;
 }
 
 .ml-0 {
@@ -922,6 +944,10 @@
   margin-left: 200px !important;
 }
 
+.mt-auto {
+  margin-top: auto !important;
+}
+
 .mt-0 {
   margin-top: 0 !important;
 }
@@ -1088,6 +1114,10 @@
 
 .mt-200px {
   margin-top: 200px !important;
+}
+
+.mb-auto {
+  margin-bottom: auto !important;
 }
 
 .mb-0 {
@@ -1272,6 +1302,12 @@
 
 .push-left {
   margin: 0 0 0 auto;
+}
+
+@media screen and (min-width: 600px) {
+  .md\?ma-auto {
+    margin: auto !important;
+  }
 }
 
 @media screen and (min-width: 600px) {
@@ -1523,6 +1559,13 @@
 @media screen and (min-width: 600px) {
   .md\?ma-200px {
     margin: 200px !important;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .md\?my-auto {
+    margin-top: auto !important;
+    margin-bottom: auto !important;
   }
 }
 
@@ -1821,6 +1864,13 @@
 }
 
 @media screen and (min-width: 600px) {
+  .md\?mx-auto {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+}
+
+@media screen and (min-width: 600px) {
   .md\?mx-0 {
     margin-left: 0 !important;
     margin-right: 0 !important;
@@ -2115,6 +2165,12 @@
 }
 
 @media screen and (min-width: 600px) {
+  .md\?mr-auto {
+    margin-right: auto !important;
+  }
+}
+
+@media screen and (min-width: 600px) {
   .md\?mr-0 {
     margin-right: 0 !important;
   }
@@ -2363,6 +2419,12 @@
 @media screen and (min-width: 600px) {
   .md\?mr-200px {
     margin-right: 200px !important;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .md\?ml-auto {
+    margin-left: auto !important;
   }
 }
 
@@ -2619,6 +2681,12 @@
 }
 
 @media screen and (min-width: 600px) {
+  .md\?mt-auto {
+    margin-top: auto !important;
+  }
+}
+
+@media screen and (min-width: 600px) {
   .md\?mt-0 {
     margin-top: 0 !important;
   }
@@ -2867,6 +2935,12 @@
 @media screen and (min-width: 600px) {
   .md\?mt-200px {
     margin-top: 200px !important;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .md\?mb-auto {
+    margin-bottom: auto !important;
   }
 }
 
@@ -3138,6 +3212,12 @@
 }
 
 @media screen and (min-width: 960px) {
+  .lg\?ma-auto {
+    margin: auto !important;
+  }
+}
+
+@media screen and (min-width: 960px) {
   .lg\?ma-0 {
     margin: 0 !important;
   }
@@ -3386,6 +3466,13 @@
 @media screen and (min-width: 960px) {
   .lg\?ma-200px {
     margin: 200px !important;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .lg\?my-auto {
+    margin-top: auto !important;
+    margin-bottom: auto !important;
   }
 }
 
@@ -3684,6 +3771,13 @@
 }
 
 @media screen and (min-width: 960px) {
+  .lg\?mx-auto {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+}
+
+@media screen and (min-width: 960px) {
   .lg\?mx-0 {
     margin-left: 0 !important;
     margin-right: 0 !important;
@@ -3978,6 +4072,12 @@
 }
 
 @media screen and (min-width: 960px) {
+  .lg\?mr-auto {
+    margin-right: auto !important;
+  }
+}
+
+@media screen and (min-width: 960px) {
   .lg\?mr-0 {
     margin-right: 0 !important;
   }
@@ -4226,6 +4326,12 @@
 @media screen and (min-width: 960px) {
   .lg\?mr-200px {
     margin-right: 200px !important;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .lg\?ml-auto {
+    margin-left: auto !important;
   }
 }
 
@@ -4482,6 +4588,12 @@
 }
 
 @media screen and (min-width: 960px) {
+  .lg\?mt-auto {
+    margin-top: auto !important;
+  }
+}
+
+@media screen and (min-width: 960px) {
   .lg\?mt-0 {
     margin-top: 0 !important;
   }
@@ -4730,6 +4842,12 @@
 @media screen and (min-width: 960px) {
   .lg\?mt-200px {
     margin-top: 200px !important;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .lg\?mb-auto {
+    margin-bottom: auto !important;
   }
 }
 
