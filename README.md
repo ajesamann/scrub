@@ -7,14 +7,14 @@ The quickest way to get started with Scrub is by using the CDN to include the fo
 ```html
 <!-- Scrub CSS -->
 <link
-  href="https://cdn.jsdelivr.net/npm/scrubcss@1.0.9/css-dist/main.min.css"
+  href="https://cdn.jsdelivr.net/npm/scrubcss@1.1.0/css-dist/main.min.css"
   rel="stylesheet"
 />
 
 <!--
   Or,
   Use the following (no variables, supports IE11):
-  <link href="https://cdn.jsdelivr.net/npm/scrubcss@1.0.9/css-dist/main.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/scrubcss@1.1.0/css-dist/main.min.css" rel="stylesheet" />
 -->
 ```
 
@@ -285,6 +285,24 @@ Backgrounds are simple.
 
 ### Border
 
+Adding a border consists of providing the size of the border and the color.
+
+Border size values:
+
+```
+"tiny": 1px
+"sm": 2px
+"md": 3px
+"lg": 4px
+```
+
+Example:
+
+```html
+<!-- border around whole element, black color -->
+<div class="border-tiny-black"></div>
+```
+
 Naming convention for border radius:
 
 Values: top, bottom, left, right
@@ -305,21 +323,11 @@ Border radius values:
 "lg": 50px
 ```
 
-Adding a border consists of providing the size of the border and the color.
-
-Border size values:
-
-```
-"tiny": 1px
-"sm": 2px
-"md": 3px
-"lg": 4px
-```
-
-Example:
-
 ```html
-<div class="border-tiny-black"></div>
+<!-- border radius all corners, 50px -->
+<div class="round-lg"></div>
+<!-- border radius top right only, 10px -->
+<div class="round-top-right-sm"></div>
 ```
 
 ### Shadows
@@ -437,8 +445,8 @@ Let's dive deeper.
 Breakpoint values:
 
 ```
-"md": 960px;
-"lg": 1280px;
+"md": 960px
+"lg": 1280px
 ```
 
 Say we want our div below to have 50% width on mobile, 100% width on small tablets, and 75% width on desktops. Every screen size above your identifier will take the current queries styles, unless a new query takes over.
