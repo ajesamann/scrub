@@ -7,14 +7,14 @@ The quickest way to get started with Scrub is by using the CDN to include the fo
 ```html
 <!-- Scrub CSS -->
 <link
-  href="https://cdn.jsdelivr.net/npm/scrubcss@1.0.7/css-dist/main.min.css"
+  href="https://cdn.jsdelivr.net/npm/scrubcss@1.0.8/css-dist/main.min.css"
   rel="stylesheet"
 />
 
 <!--
   Or,
   Use the following (no variables, supports IE11):
-  <link href="https://cdn.jsdelivr.net/npm/scrubcss@1.0.7/css-dist/main.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/scrubcss@1.0.8/css-dist/main.min.css" rel="stylesheet" />
 -->
 ```
 
@@ -33,7 +33,7 @@ Sizing:
 - Pixels start at 25 and go in increments of 25 up to 500. (both width and height)
 - Percents start at 5 and go in increments of 5 up to 100. (width) Height only uses the special sizes below.
 
-Special Sizes for both:
+Special sizes for both:
 
 ```
 "0": 0
@@ -75,9 +75,9 @@ Sizing:
 
 - Sizing starts at 5px and goes up to 200px in increments of 5.
 
-For example mr = margin-right, pl = padding-left, pt = padding-top, mb = margin-bottom, and ma or pa = all sides. You can also use the "auto" at the end for auto sizing.
+For example mr = margin-right, pl = padding-left, pt = padding-top, mb = margin-bottom, and ma or pa = all sides. You can also use "auto" at the end for auto sizing.
 
-Special Sizes:
+Special sizes:
 
 ```
 "0": 0
@@ -110,3 +110,169 @@ With margin there is also specific names for the auto margins.
 <!-- margin left auto -->
 <div class="push-left"></div>
 ```
+
+### Text
+
+The identifier for text is literally text.
+
+Sizes:
+
+```
+"tiny": 10px
+"xs": 12px
+"sm": 14px
+"md": 16px
+"lg": 18px
+"xl": 20px
+"2xl": 22px
+"3xl": 24px
+"4xl": 26px
+"5xl": 28px
+"6xl": 30px
+```
+
+Example:
+
+```html
+<!-- font will be 22px -->
+<div class="text-2xl"></div>
+<!-- font will be 10px -->
+<div class="text-tiny"></div>
+```
+
+To alter text color, just use the identifier then the name of the color as the suffix.
+
+Example:
+
+```html
+<!-- black text color -->
+<div class="text-black"></div>
+```
+
+To add text styles, just use the name of the style you're looking for.
+
+```
+italic
+bold
+underline
+decoration-off
+```
+
+### Flex
+
+Scrub offers premade flex containers. The naming convention for these is like so - nameOfLayout-directionOfFlex. (column or row)
+
+Layout class names:
+
+```
+center-<direction>
+top-<direction>
+bottom-<direction>
+left-<direction>
+right-<direction>
+between-<direction>
+around-<direction>
+evenly-<direction>
+```
+
+Let's look at some examples.
+
+```html
+<!-- This container will move all children to the center of the column -->
+<div class="center-column">
+  <!-- children -->
+  <div></div>
+  <div></div>
+  <div></div>
+</div>
+
+<!-- This container will move all children to the left of the column -->
+<div class="left-column">
+  <!-- children -->
+  <div></div>
+  <div></div>
+  <div></div>
+</div>
+
+<!-- This container will spread all children evenly throughout the row -->
+<div class="evenly-row">
+  <!-- children -->
+  <div></div>
+  <div></div>
+  <div></div>
+</div>
+
+<!-- This container will spread all children as much as possible throughout the row -->
+<div class="between-row">
+  <!-- children -->
+  <div></div>
+  <div></div>
+  <div></div>
+</div>
+```
+
+You can also create your own flex containers. Easily control your container if you don't want to use the premade ones.
+
+Values for alignment:
+
+```
+"center": center
+"start": flex-start
+"end": flex-end
+"between": space-between
+"around": space-around (justify-content only)
+"evenly": space-evenly
+"stretch": stretch (align-items only)
+```
+
+```html
+<!-- just use f-<name of direction> then j for justify-content, a for align-items and a value for alignment -->
+<div class="f-column j-start a-center">
+  <!-- children -->
+  <div></div>
+  <div></div>
+  <div></div>
+</div>
+```
+
+Flex wrap options can be toggled with "wrap-on/off".
+
+### Flex Children
+
+Align self values:
+
+```
+"center": center
+"start": start
+"end": end
+"f-start": flex-start
+"f-end": flex-end
+"base": baseline
+"stretch": stretch
+```
+
+Align self example:
+
+```html
+<div class="center-row">
+  <div></div>
+  <!-- align self to flex end -->
+  <div class="self-a-f-end"></div>
+  <div></div>
+</div>
+```
+
+Grow and shrink work the same way. Simply use the word grow or shrink, then an integer 0-5.
+For example grow-3 or shrink-0.
+
+Flex basis values:
+
+```
+"auto": auto
+"25": 25%
+"33": 33%
+"50": 50%
+"100": 100%
+```
+
+Just simply use "basis-25" or whatever value you wish to use.
