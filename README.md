@@ -276,3 +276,188 @@ Flex basis values:
 ```
 
 Just simply use "basis-25" or whatever value you wish to use.
+
+### Background colors
+
+Backgrounds are simple.
+
+"bg-(name of color)"
+
+### Border
+
+Naming convention for border radius:
+
+Values: top, bottom, left, right
+
+```
+- All corners
+round-(size)
+
+- Specific corner
+round-(y value)-(x value)-(size)
+```
+
+Border radius values:
+
+```
+"sm": 10px
+"md": 25px
+"lg": 50px
+```
+
+Adding a border consists of providing the size of the border and the color.
+
+Border size values:
+
+```
+"tiny": 1px
+"sm": 2px
+"md": 3px
+"lg": 4px
+```
+
+Example:
+
+```html
+<div class="border-tiny-black"></div>
+```
+
+### Shadows
+
+Shadow classes:
+
+```
+shadow-sm
+shadow-md
+shadow-lg
+```
+
+### Shapes
+
+Scrub offers currently squares and circles. The pixel sizes are the same on all sides, and work in increments of 25 up to 500.
+
+For declaring a shape, just use the name of the shape, then the size.
+
+Examples:
+
+```html
+<!-- circles -->
+<div class="circle-125px"></div>
+<!-- squares -->
+<div class="square-450px"></div>
+```
+
+### Positioning
+
+If you need to use absolute positioning, scrub has you covered. Just use "abs" for absolute, or "rel" for relative.
+
+We also have a premade centering class for absolute elements. Use "center-abs" to center absolute elements.
+
+To control a absolute element, grab it with it's axis identifier, (top, bottom, left, right) then use a value 0-250 (pixels).
+
+Example:
+
+```html
+<div class="abs top-0 right-35"></div>
+```
+
+### Dividers
+
+Dividers are declared using their horizontal or vertical identifiers, then the size of the divider.
+
+Divider size values for horizontal and vertical:
+
+```
+"5px": 5px
+"10px": 10px
+"15px": 15px
+"20px": 20px
+"25px": 25px
+"30px": 30px
+"35px": 35px
+"40px": 40px
+"45px": 45px
+"50px": 50px
+"quarter": 25%
+"half": 50%
+"three-quarters": 75%
+"full": 100%
+"screen": (100vw for horizontal) (100vh for vertical)
+```
+
+Dividers us sm, md, and lg to determine the thickness of the actual divider. The last value given is either the width or the height depending on the divider type. You can use "none" at the end to give it your own width.
+
+Let's look at some examples:
+
+```html
+<!-- vertical divider - small thickness - 100% width -->
+<div class="v-divider-sm-full"></div>
+<!-- horizontal divider - large thickness - 25 pixel width -->
+<div class="h-divider-lg-25px"></div>
+```
+
+### Components
+
+Currently there are only two premade components in Scrub.
+
+Buttons and chips. All you have to do is call the component name and then how round you want the corners.
+
+Values:
+
+```
+"rectangle"
+"round-sm"
+"round-md"
+"round-full"
+```
+
+Examples:
+
+```html
+<!-- completely rounded button -->
+<div class="btn-round-full"></div>
+<!-- no border radius button -->
+<div class="btn-rectangle"></div>
+<!-- small border radius chip -->
+<div class="chip-round-sm"></div>
+```
+
+### Inputs
+
+Inputs are styled by our default input styling.
+
+We haven't incorporated any control of inputs yet, but the defaults look alot better than htmls default inputs.
+
+### Media Queries (responsive styling)
+
+Scrub takes a very simple and widely used approach when it comes to responsive styling. You must style for mobile first. To activate a media query on a style just apply md?(name of class) or lg?(name of class).
+
+Let's dive deeper.
+
+Breakpoint values:
+
+```
+"md": 960px;
+"lg": 1280px;
+```
+
+Say we want our div below to have 50% width on mobile, 100% width on small tablets, and 75% width on desktops. Every screen size above your identifier will take the current queries styles, unless a new query takes over.
+
+```html
+<div class="w-50 md?w-100 lg?w-75"></div>
+```
+
+These classes do not have to be in order, but notice how we applied the identifiers. Most all classes support this convention in Scrub.
+
+### Misc Classes
+
+```
+"max": take full width and height of parent
+"max-screen": take full width and height of screen
+"smooth-on": smoothly transition element styles
+"smooth-off": turn off smooth transitions
+"clickable": show cursor on hover
+"border-box": apply box-sizing border-box
+```
+
+Happy styling!
