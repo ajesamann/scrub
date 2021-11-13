@@ -393,7 +393,7 @@ Divider size values for horizontal and vertical:
 "screen": (100vw for horizontal) (100vh for vertical)
 ```
 
-Dividers us sm, md, and lg to determine the thickness of the actual divider. The last value given is either the width or the height depending on the divider type. You can use "none" at the end to give it your own width.
+Dividers use sm, md, and lg to determine the thickness of the actual divider. The last value given is either the width or the height depending on the divider type. You can use "none" at the end to give it your own width.
 
 Let's look at some examples:
 
