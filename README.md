@@ -26,7 +26,7 @@ Scrub is built with a mobile-first approach. That means all your base styles sho
 
 Width and height are styled using their identifiers first, and then their size.
 
-Identifiers: w = width, h = height, min-w = min-width, max-w = max-height, min-h = min-height, max-h = max-height. You can also you x or y for left-right & top-bottom identifiers. (ie. mx-20px (top-bottom))
+Identifiers: w = width, h = height, min-w = min-width, max-w = max-height, min-h = min-height, max-h = max-height. You can also use x or y for left-right & top-bottom identifiers. (ie. mx-20px would be equivalent to margin-left and margin-right 20px)
 
 Sizing:
 
@@ -98,7 +98,7 @@ Example:
 <div class="pb-0"></div>
 ```
 
-With margin there is also specific names for the auto margins.
+With margin there is also specific names for the auto margins:
 
 ```html
 <!-- margin top auto -->
@@ -140,7 +140,7 @@ Example:
 <div class="text-tiny"></div>
 ```
 
-To alter text color, just use the identifier then the name of the color as the suffix.
+To alter text color, just use the identifier then the name of the color as the suffix:
 
 Example:
 
@@ -149,7 +149,7 @@ Example:
 <div class="text-black"></div>
 ```
 
-To add text styles, just use the name of the style you're looking for.
+To add text styles, just use the name of the style you're looking for:
 
 ```
 italic
@@ -175,7 +175,7 @@ around-<direction>
 evenly-<direction>
 ```
 
-Let's look at some examples.
+Let's look at some examples:
 
 ```html
 <!-- This container will move all children to the center of the column -->
@@ -303,9 +303,7 @@ Example:
 <div class="border-tiny-black"></div>
 ```
 
-Naming convention for border radius:
-
-Values: top, bottom, left, right
+Naming convention for border radius: top, bottom, left, right
 
 ```
 - All corners
@@ -342,7 +340,7 @@ shadow-lg
 
 ### Shapes
 
-Scrub offers currently squares and circles. The pixel sizes are the same on all sides, and work in increments of 25 up to 500.
+Scrub currently only offers squares and circles. The pixel sizes are the same on all sides, and work in increments of 25 up to 500.
 
 For declaring a shape, just use the name of the shape, then the size.
 
