@@ -447,13 +447,13 @@ Breakpoint values:
 "lg": 1280px
 ```
 
-Say we want our div below to have 50% width on mobile, 100% width on small tablets, and 75% width on desktops. Every screen size above your identifier will take the current queries styles, unless a new query takes over.
+Say we want our div below to have 50% width on mobile, 100% width on small tablets, and 75% width on desktops. Every screen size above your identifier will take the current query's styles, unless a new query takes over.
 
 ```html
 <div class="w-50 md?w-100 lg?w-75"></div>
 ```
 
-These classes do not have to be in order, but notice how we applied the identifiers. Most all classes support this convention in Scrub.
+These classes do not have to be in order, but notice how we applied the identifiers. Most classes support this convention in Scrub.
 
 ### Misc Classes
 
